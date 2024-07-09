@@ -1,2 +1,150 @@
+#title {
+  background-color: rgb(111, 188, 255);
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    animation-delay: 0.5s;
+  }
+}
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  margin-bottom: 2rem;
+}
+.nav-item {
+  padding: 0 30px;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  animation-delay: 1s;
+}
+#title-image {
+  width: 70%;
+  transform: rotate(12deg);
+  display: block;
+  margin-left: 20%;
+  z-index: -1;
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  #title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#features {
+  padding: 5% 10%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+}
+.feature-item {
+  font-family: 'Montserrat', sans-serif;
+  padding: 4%;
+  text-align: center;
+  transition: 0.3s;
+
+  h3 {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+  }
+  p {
+    color: grey;
+  }
+  .icon {
+    color: rgb(255, 213, 0);
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  &:hover {
+    transform: scale(1.2);
+    .icon {
+      transition: 0.5s;
+      text-shadow: goldenrod 10px 4px;
+    }
+  }
+}
+
+#testimonials {
+  padding: 5% 10%;
+  background-color: #afa2ff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  h2 {
+    color: black;
+  }
+  img {
+    width: 20%;
+    border-radius: 40%;
+    display: block;
+    margin-left: 40%;
+  }
+}
+#press {
+  background-color: #afa2ff;
+  text-align: center;
+  .press-logo {
+    width: 15%;
+    text-align: center;
+    margin: 10px 10px 40px;
+  }
+}
+#pricing {
+  margin: 20px 5%;
+  font-family: 'Montserrat', sans-serif;
+  .card-header {
+    text-align: center;
+    color: black;
+  }
+  .card {
+    margin-top: 10px;
+  }
+  h2 {
+    padding: 5px 10px;
+    font-size: bold;
+  }
+}
+#cta {
+  background-color: #dbd8ae;
+  padding: 5% 10%;
+}
+#cta-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+}
 /* COGS3 studyBuddy specific styles go here. */
+footer {
+  text-align: center;
+  padding: 5% 10%;
+}
+.social-icon {
+  padding: 5px 10px;
+}
