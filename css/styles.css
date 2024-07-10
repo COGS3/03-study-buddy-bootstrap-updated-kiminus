@@ -111,9 +111,10 @@ h2 {
   background-color: #afa2ff;
   text-align: center;
   .press-logo {
-    width: 15%;
+    width: 10%;
     text-align: center;
     margin: 10px 10px 40px;
+    padding: 5px 20px;
   }
 }
 #pricing {
